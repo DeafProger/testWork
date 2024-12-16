@@ -25,12 +25,14 @@ class ProductSerializer(serializers.ModelSerializer):
 
 class IsOwner(BasePermission):
     message = 'You is not page Owner.'
+
     def has_object_permission(self, request, view, obj):
         return request.user == obj.owner
 
 
 class IsProductOwner(BasePermission):
     message = 'You is not page Owner.'
+
     def has_object_permission(self, request, view, obj):
         return request.user == obj.supplier.owner
 

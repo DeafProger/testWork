@@ -1,9 +1,9 @@
 from django.db import models
 from django.conf import settings
-from django.utils import timezone
 
 
 LEVELS = ((0, 'Factory'), (1, 'Retail network'), (2, 'Sole proprietor'))
+
 
 class Contact(models.Model):
     email = models.EmailField(verbose_name='Email', blank=True, null=True)
@@ -12,7 +12,7 @@ class Contact(models.Model):
     street = models.CharField(max_length=255, verbose_name='Street', 
                               blank=True, null=True)
     house_number = models.CharField(max_length=10, verbose_name='House number',
-                              blank=True, null=True)
+                                    blank=True, null=True)
     creator = models.ForeignKey(settings.AUTH_USER_MODEL, blank=True, 
                                 verbose_name='Creator', null=True,
                                 on_delete=models.CASCADE)

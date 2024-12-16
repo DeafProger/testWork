@@ -12,11 +12,11 @@ class CustomUserAdmin(UserAdmin):
     list_display = ("id", "email", "is_staff", "is_active",)
     list_filter = ("email", "is_staff", "is_active",)
     list_display_links = ("email",)
-    
-    fieldsets = ( ('Main', {"fields": ("email", "password",)}),
-                  ('Access rights', {"fields": ("is_staff", "is_active", 
-                                     "groups", "user_permissions") }
-                  ),
+
+    fieldsets = (('Main', {"fields": ("email", "password",)}),
+                 ('Access rights', {"fields": ("is_staff", "is_active",
+                                    "groups", "user_permissions")}
+                 ),
                 )
     
     add_fieldsets = (
