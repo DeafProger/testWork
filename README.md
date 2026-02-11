@@ -28,5 +28,6 @@ Where <arguments> is one or few of:
          
 By example: java filter.java -o subfolder in1.txt in2.txt
 
+
 В данной репозитории прилагается исходник filter.java по решению поставленной задачи, а также
 сопуствующие служебные файлы. Спасибо за интерес к данной работе.
