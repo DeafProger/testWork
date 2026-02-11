@@ -1,7 +1,6 @@
 # testWork
 
-    Здесь вкратце дается обзор предлагаемого решения по тестовому заданию 
-https://shiftproject.ru/resources/uploads/SHIFT_Java_Test_Task_f8f56f0c1e.pdf
+    Здесь вкратце дается обзор предлагаемого решения по тестовому заданию https://shiftproject.ru/resources/uploads/SHIFT_Java_Test_Task_f8f56f0c1e.pdf
 
    Пользовался версией java 25.0.2 2026-01-20 LTS, взятой на сайте 
 https://www.oracle.com/asean/java/technologies/downloads/. Одной из фич данной версии 
